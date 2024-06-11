@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660279C32BE0FD980032E05D /* YemekTarifSayfasi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660279C22BE0FD980032E05D /* YemekTarifSayfasi.swift */; };
+		6696C2302BD1B12E0067FBD0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6696C22E2BD1B12E0067FBD0 /* Localizable.strings */; };
+		6696C2332BD1B40F0067FBD0 /* ilhamVerSayfasi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696C2322BD1B40F0067FBD0 /* ilhamVerSayfasi.swift */; };
+		669E9E592BD0648F00884399 /* TasarimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669E9E582BD0648F00884399 /* TasarimApp.swift */; };
+		669E9E5B2BD0648F00884399 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669E9E5A2BD0648F00884399 /* ContentView.swift */; };
+		669E9E5D2BD0649000884399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669E9E5C2BD0649000884399 /* Assets.xcassets */; };
+		669E9E602BD0649000884399 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669E9E5F2BD0649000884399 /* Preview Assets.xcassets */; };
+		66DA6B082BDEF7F9002B57DD /* loginSayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DA6B072BDEF7F9002B57DD /* loginSayfa.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		660279C22BE0FD980032E05D /* YemekTarifSayfasi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekTarifSayfasi.swift; sourceTree = "<group>"; };
+		6696C22F2BD1B12E0067FBD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6696C2312BD1B1B40067FBD0 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6696C2322BD1B40F0067FBD0 /* ilhamVerSayfasi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ilhamVerSayfasi.swift; sourceTree = "<group>"; };
+		669E9E552BD0648F00884399 /* Tasarim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasarim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		669E9E582BD0648F00884399 /* TasarimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasarimApp.swift; sourceTree = "<group>"; };
+		669E9E5A2BD0648F00884399 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		669E9E5C2BD0649000884399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		669E9E5F2BD0649000884399 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66DA6B072BDEF7F9002B57DD /* loginSayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginSayfa.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		669E9E522BD0648F00884399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		669E9E4C2BD0648F00884399 = {
+			isa = PBXGroup;
+			children = (
+				669E9E572BD0648F00884399 /* Tasarim */,
+				669E9E562BD0648F00884399 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		669E9E562BD0648F00884399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				669E9E552BD0648F00884399 /* Tasarim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		669E9E572BD0648F00884399 /* Tasarim */ = {
+			isa = PBXGroup;
+			children = (
+				669E9E582BD0648F00884399 /* TasarimApp.swift */,
+				669E9E5A2BD0648F00884399 /* ContentView.swift */,
+				6696C2322BD1B40F0067FBD0 /* ilhamVerSayfasi.swift */,
+				66DA6B072BDEF7F9002B57DD /* loginSayfa.swift */,
+				660279C22BE0FD980032E05D /* YemekTarifSayfasi.swift */,
+				6696C22E2BD1B12E0067FBD0 /* Localizable.strings */,
+				669E9E5C2BD0649000884399 /* Assets.xcassets */,
+				669E9E5E2BD0649000884399 /* Preview Content */,
+			);
+			path = Tasarim;
+			sourceTree = "<group>";
+		};
+		669E9E5E2BD0649000884399 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				669E9E5F2BD0649000884399 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		669E9E542BD0648F00884399 /* Tasarim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 669E9E632BD0649000884399 /* Build configuration list for PBXNativeTarget "Tasarim" */;
+			buildPhases = (
+				669E9E512BD0648F00884399 /* Sources */,
+				669E9E522BD0648F00884399 /* Frameworks */,
+				669E9E532BD0648F00884399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tasarim;
+			productName = Tasarim;
+			productReference = 669E9E552BD0648F00884399 /* Tasarim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		669E9E4D2BD0648F00884399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					669E9E542BD0648F00884399 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 669E9E502BD0648F00884399 /* Build configuration list for PBXProject "Tasarim" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = 669E9E4C2BD0648F00884399;
+			productRefGroup = 669E9E562BD0648F00884399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				669E9E542BD0648F00884399 /* Tasarim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		669E9E532BD0648F00884399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669E9E602BD0649000884399 /* Preview Assets.xcassets in Resources */,
+				6696C2302BD1B12E0067FBD0 /* Localizable.strings in Resources */,
+				669E9E5D2BD0649000884399 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		669E9E512BD0648F00884399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DA6B082BDEF7F9002B57DD /* loginSayfa.swift in Sources */,
+				669E9E5B2BD0648F00884399 /* ContentView.swift in Sources */,
+				6696C2332BD1B40F0067FBD0 /* ilhamVerSayfasi.swift in Sources */,
+				660279C32BE0FD980032E05D /* YemekTarifSayfasi.swift in Sources */,
+				669E9E592BD0648F00884399 /* TasarimApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6696C22E2BD1B12E0067FBD0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6696C22F2BD1B12E0067FBD0 /* en */,
+				6696C2312BD1B1B40067FBD0 /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		669E9E612BD0649000884399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		669E9E622BD0649000884399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		669E9E642BD0649000884399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tasarim/Preview Content\"";
+				DEVELOPMENT_TEAM = N5BT92DK6J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mertbaykal.Tasarim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		669E9E652BD0649000884399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tasarim/Preview Content\"";
+				DEVELOPMENT_TEAM = N5BT92DK6J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mertbaykal.Tasarim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		669E9E502BD0648F00884399 /* Build configuration list for PBXProject "Tasarim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669E9E612BD0649000884399 /* Debug */,
+				669E9E622BD0649000884399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		669E9E632BD0649000884399 /* Build configuration list for PBXNativeTarget "Tasarim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669E9E642BD0649000884399 /* Debug */,
+				669E9E652BD0649000884399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 669E9E4D2BD0648F00884399 /* Project object */;
+}
